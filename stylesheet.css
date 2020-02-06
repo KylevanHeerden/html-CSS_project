@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+ul{
+    list-style: none;
+}
+
+.nine{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px 2px;
+
+}
+
+.squares{
+    background-color: rgb(124,124,124);
+    width: 4px;
+    height: 4px;
+
+}
+
+.sign{
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
