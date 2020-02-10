@@ -5,6 +5,10 @@ html, body {
 }
 
 ul{
+    list-style: none;
+}
+
+ul{
 
     display: flex;
     flex-direction: row;
@@ -12,9 +16,12 @@ ul{
     justify-content: end;
 }
 
-ul{
-    list-style: none;
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
 }
+
 
 .nine{
     display: grid;
@@ -35,4 +42,76 @@ ul{
     color: white;
     font-weight: bold;
     padding: 10px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+a.sign:hover {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+img.google {
+    width: 330px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+}
+
+img.glass {
+    width: 30px;
+    margin-right: -35px;
+    z-index: 1000;
+    height: auto;
+    align-self: center;
+}
+div.search {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px ;
+    border-radius: 25px;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 36px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(206, 206, 206);
+}
+input[type=text]:focus {
+    border: 2px solid rgb(136, 136, 136);
+}
+
+div.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+input[type=submit] {
+    margin-right: 35px;
+    padding: 10px 25px;
+    background-color: rgb(245, 244, 244);
+    border: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(240, 236, 236);
+    border-top:rgb(73, 73, 73)
+}
+footer li a {
+    color: rgb(114, 114, 114)
 }
