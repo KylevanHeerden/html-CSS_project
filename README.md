@@ -1,4 +1,4 @@
-#Google Homepage Exercise
+# Google Homepage Exercise
 
 A simple repliation of the Google homepage with simple HTML and CSS.
 
